@@ -29,13 +29,6 @@
       "status": "Reject"
     },
     {
-      "title": "dcsdcsd",
-      "description": "fvs",
-      "dueDate": "2023-05-23",
-      "status": "pending",
-      "id": 106
-    },
-    {
       "title": "Front end developement",
       "description": "its user experience and user inetrface",
       "dueDate": "2023-05-30",
