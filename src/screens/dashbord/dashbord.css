@@ -1,0 +1,143 @@
+.dashbord_wraper{
+    width: 100%;
+}
+
+  .dashbord_container{
+    width: 100%;
+  
+  
+  }
+  .logoutBtn_wraper{
+    margin: 10px 3% 0 auto;
+    width: fit-content;
+  }
+  .logout_btn{
+    background-color: aqua;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: auto;
+  }
+  .usertask_wraper{
+    width: 100%;
+    padding: 3% 5%;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  
+  
+  }
+  .cards_container{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px black;
+    padding: 25px;
+    margin-bottom:25px;
+  
+  
+  }
+  .userItem_edit_wraper{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    /* padding: 10px 30px; */
+  }
+  .card_contentWrap{
+    height: 85%;
+  }
+  .userItem_edit_wraper>p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 15px;
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 3px;    
+    background-color: white;
+}
+.userItem_edit_wraper>p:hover{
+    background-color: aliceblue;
+}
+    
+  .PostuserForm{
+    width: 100%;
+  }
+  .card_contentWrap>p{
+    font-size: 14px;
+    margin: 7px 0;
+  }
+
+  .dashbord_header_wraper{
+    width: 100%;
+    padding: 3% 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+  }
+.dashbord_header_wraper>input{
+    font-size: 14px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 200px;
+}
+.addnewTask_btn{
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 8px 10px;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addPost_task_wraper{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.478);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PostuserForm{
+    width: 30%;
+    background-color: var(--white);
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+.postInputHolder{
+    width: 100%;
+    margin: 20px 0;
+}
+.postInputHolder>input{
+    width:100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.addpostClose{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+.postInputHolder>button{
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
